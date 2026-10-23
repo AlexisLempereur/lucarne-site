@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lucarne, l’app pour noter les matchs de foot</title>
+    <meta name="description" content="Note chaque match que tu regardes, écris ce que tu en as pensé et garde la trace de toute ta saison de foot.">
+    <link rel="canonical" href="https://lucarne.eu/">
+    <link rel="alternate" hreflang="fr" href="https://lucarne.eu/">
+    <link rel="alternate" hreflang="en" href="https://lucarne.eu/en/">
+    <link rel="alternate" hreflang="es" href="https://lucarne.eu/es/">
+    <link rel="alternate" hreflang="it" href="https://lucarne.eu/it/">
+    <link rel="alternate" hreflang="x-default" href="https://lucarne.eu/">
+    <meta name="theme-color" content="#0A0A0B">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Lucarne">
+    <meta property="og:url" content="https://lucarne.eu/">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="en_GB">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:locale:alternate" content="it_IT">
+    <meta property="og:title" content="Lucarne, l’app pour noter les matchs de foot">
+    <meta property="og:description" content="Note chaque match que tu regardes, écris ce que tu en as pensé et garde la trace de toute ta saison de foot.">
+    <meta property="og:image" content="https://lucarne.eu/images/og/fr.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://lucarne.eu/#organization","name":"Lucarne","url":"https://lucarne.eu/","logo":"https://lucarne.eu/apple-touch-icon.png","email":"lucarne.contact@gmail.com"},{"@type":"WebSite","@id":"https://lucarne.eu/#website","name":"Lucarne","url":"https://lucarne.eu/","inLanguage":["fr","en","es","it"],"publisher":{"@id":"https://lucarne.eu/#organization"}},{"@type":"MobileApplication","@id":"https://lucarne.eu/#app","name":"Lucarne","url":"https://lucarne.eu/","description":"Note chaque match que tu regardes, écris ce que tu en as pensé et garde la trace de toute ta saison de foot.","operatingSystem":"iOS","applicationCategory":"SportsApplication","inLanguage":["fr","en","es","it"],"offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"screenshot":["https://lucarne.eu/images/screens/fr/01.jpg","https://lucarne.eu/images/screens/fr/02.jpg","https://lucarne.eu/images/screens/fr/03.jpg"],"publisher":{"@id":"https://lucarne.eu/#organization"}},{"@type":"FAQPage","@id":"https://lucarne.eu/#faq","inLanguage":"fr","mainEntity":[{"@type":"Question","name":"C’est quoi Lucarne ?","acceptedAnswer":{"@type":"Answer","text":"Une app iPhone pour noter les matchs de foot que tu regardes. Tu donnes une note de 1 à 10, tu écris ta critique et tu lis celles de tes amis. Comme Letterboxd pour les films, mais pour le foot."}},{"@type":"Question","name":"Lucarne est-elle gratuite ?","acceptedAnswer":{"@type":"Answer","text":"Oui, entièrement. Quelques bandeaux publicitaires discrets s’affichent dans les listes, jamais en plein écran."}},{"@type":"Question","name":"Sur quel téléphone ?","acceptedAnswer":{"@type":"Answer","text":"Sur iPhone, bientôt sur l’App Store, en français, anglais, espagnol et italien. Il n’existe pas encore de version Android."}},{"@type":"Question","name":"Quels matchs peut-on noter ?","acceptedAnswer":{"@type":"Answer","text":"Plus de 50 000 matchs : la Ligue 1, la Premier League, la Liga, la Serie A et la Bundesliga depuis 2001, la Ligue des champions depuis 2002, chaque Coupe du monde depuis 1994, chaque Euro depuis 2004 et la Ligue des nations depuis sa création."}},{"@type":"Question","name":"Comment on note un match ?","acceptedAnswer":{"@type":"Answer","text":"Tu fais glisser ton doigt, de 1 à 10 par demi-points. Tu peux ajouter une critique, ton homme du match choisi sur la composition, et le jour où tu l’as vu."}},{"@type":"Question","name":"Qui voit mes critiques ?","acceptedAnswer":{"@type":"Answer","text":"C’est toi qui choisis, à chaque critique : tout le monde, seulement tes abonnés, ou toi seul."}}]}]}</script>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="preload" href="/fonts/Outfit_700Bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body class="home">
+    <script>try{var l=((navigator.languages&&navigator.languages[0])||navigator.language||'').slice(0,2).toLowerCase();if(!/bot|crawl|spider|slurp|google|bing|yandex|baidu|duckduck|gpt|claude|perplexity|preview/i.test(navigator.userAgent)&&!localStorage.getItem('lucarne.lang')&&(l==='en'||l==='es'||l==='it')){location.replace('/'+l+'/')}}catch(e){}</script>
+    <header class="site-header">
+      <div class="wrap top">
+        <a class="brand" href="/"><img src="/logo.svg" alt="Lucarne" width="74" height="40"></a>
+        <nav class="top-nav" aria-label="Langue">
+          <ul class="langs"><li><a href="/" hreflang="fr" lang="fr" aria-current="true" onclick="try{localStorage.setItem('lucarne.lang','fr')}catch(e){}">FR</a></li><li><a href="/en/" hreflang="en" lang="en" onclick="try{localStorage.setItem('lucarne.lang','en')}catch(e){}">EN</a></li><li><a href="/es/" hreflang="es" lang="es" onclick="try{localStorage.setItem('lucarne.lang','es')}catch(e){}">ES</a></li><li><a href="/it/" hreflang="it" lang="it" onclick="try{localStorage.setItem('lucarne.lang','it')}catch(e){}">IT</a></li></ul>
+          <a class="nav-cta" href="/#telecharger">Bientôt sur l’App Store</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="top" class="hero">
+        <div class="hero-bg" aria-hidden="true">
+          <div class="hero-glow"></div>
+        </div>
+        <div class="wrap hero-layout">
+          <div class="hero-text">
+            <p class="eyebrow" data-intro><span class="dot" aria-hidden="true"></span>Le journal de foot</p>
+            <h1 class="headline" data-split>Chaque match<br class="headline-break"> mérite une <span class="accent glow-text">note</span></h1>
+            <p class="lead" data-intro>Note chaque match que tu regardes, écris ce que tu en as pensé et garde la trace de toute ta saison de foot.</p>
+            <div class="hero-actions" data-intro>
+              <p class="cta magnetic"><span class="cta-shine" aria-hidden="true"></span><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.18-1.73-1.35-.14-2.64.8-3.33.8-.69 0-1.74-.78-2.87-.76-1.47.02-2.83.86-3.59 2.18-1.53 2.66-.39 6.6 1.1 8.75.73 1.05 1.6 2.24 2.73 2.2 1.1-.05 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.07 2.65-2.13.84-1.22 1.18-2.4 1.2-2.46-.03-.01-2.27-.87-2.29-3.46zM14.2 6.13c.6-.73 1.01-1.75.9-2.76-.87.04-1.92.58-2.54 1.31-.56.65-1.05 1.68-.92 2.68.97.07 1.96-.49 2.56-1.23z"/></svg>Bientôt sur l’App Store</p>
+              <a class="discover" href="#fonctionnalites">Découvrir l’app<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14"/><path d="M19 12l-7 7-7-7"/></svg></a>
+            </div>
+          </div>
+          <div class="hero-stage" data-stage>
+            <svg class="pitch" aria-hidden="true" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid meet"><g><rect x="30" y="30" width="540" height="540" rx="8"/><line x1="30" y1="300" x2="570" y2="300"/><circle cx="300" cy="300" r="88"/><rect x="170" y="30" width="260" height="100"/><rect x="170" y="470" width="260" height="100"/><rect x="235" y="30" width="130" height="40"/><rect x="235" y="530" width="130" height="40"/></g></svg>
+            <div class="stage-glow" aria-hidden="true"></div>
+            <div class="phone-3d" data-phone>
+              <div class="phone phone-hero">
+              <span class="phone-side phone-side-a" aria-hidden="true"></span>
+              <span class="phone-side phone-side-b" aria-hidden="true"></span>
+              <div class="phone-screen">
+                <img class="screen is-active" src="/images/screens/fr/01.jpg" alt="Écran de notation d’un match, avec la note, la critique et l’homme du match" width="640" height="1296"><img class="screen" src="/images/screens/fr/02.jpg" alt="Le fil des critiques de tes amis" width="640" height="1296"><img class="screen" src="/images/screens/fr/03.jpg" alt="Le carnet de matchs, rangé par note" width="640" height="1296"><img class="screen" src="/images/screens/fr/04.jpg" alt="Le studio de partage d’une critique, en story" width="640" height="1296"><img class="screen" src="/images/screens/fr/05.jpg" alt="La composition d’un match sur le terrain, avec les buteurs et l’homme du match" width="640" height="1296"><img class="screen" src="/images/screens/fr/06.jpg" alt="La page d’une équipe, avec son palmarès" width="640" height="1296">
+                <span class="phone-glare" aria-hidden="true"></span>
+              </div>
+            </div>
+            </div>
+            <div class="phone-floor" aria-hidden="true"></div>
+            <div class="float float-crest float-home" data-depth="70" data-float>
+              <img src="/images/crests/argentina.png" alt="Argentine" width="96" height="96">
+            </div>
+            <div class="float float-crest float-away" data-depth="45" data-float>
+              <img src="/images/crests/france.png" alt="France" width="96" height="96">
+            </div>
+            <div class="float float-rating" data-depth="90" data-float>
+              <span class="float-rating-value" data-rating-count="9.5">9,5</span><span class="float-rating-max">/10</span>
+            </div>
+            <div class="float float-notif" data-depth="30" data-float>
+              <div class="notif-row"><img class="notif-icon" src="/apple-touch-icon.png" alt="" width="40" height="40"><span class="notif-text"><span class="notif-title">Lucarne</span><span class="notif-body">Emi a aimé ta critique</span></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="Les compétitions suivies">
+        <div class="marquee-row">
+          <ul class="marquee-track"><li><img src="/images/leagues/ligue-1.png" alt="" width="56" height="56">Ligue 1</li><li><img src="/images/leagues/premier-league.png" alt="" width="56" height="56">Premier League</li><li><img src="/images/leagues/liga.png" alt="" width="56" height="56">Liga</li><li><img src="/images/leagues/serie-a.png" alt="" width="56" height="56">Serie A</li><li><img src="/images/leagues/bundesliga.png" alt="" width="56" height="56">Bundesliga</li><li><img src="/images/leagues/champions-league.png" alt="" width="56" height="56">Ligue des champions</li><li><img src="/images/leagues/nations-league.png" alt="" width="56" height="56">Ligue des nations</li><li><img src="/images/leagues/world-cup.png" alt="" width="56" height="56">Coupe du monde</li><li><img src="/images/leagues/euro.png" alt="" width="56" height="56">Euro</li></ul>
+          <ul class="marquee-track" aria-hidden="true"><li><img src="/images/leagues/ligue-1.png" alt="" width="56" height="56">Ligue 1</li><li><img src="/images/leagues/premier-league.png" alt="" width="56" height="56">Premier League</li><li><img src="/images/leagues/liga.png" alt="" width="56" height="56">Liga</li><li><img src="/images/leagues/serie-a.png" alt="" width="56" height="56">Serie A</li><li><img src="/images/leagues/bundesliga.png" alt="" width="56" height="56">Bundesliga</li><li><img src="/images/leagues/champions-league.png" alt="" width="56" height="56">Ligue des champions</li><li><img src="/images/leagues/nations-league.png" alt="" width="56" height="56">Ligue des nations</li><li><img src="/images/leagues/world-cup.png" alt="" width="56" height="56">Coupe du monde</li><li><img src="/images/leagues/euro.png" alt="" width="56" height="56">Euro</li></ul>
+        </div>
+        <div class="marquee-row marquee-reverse">
+          <ul class="marquee-track"><li><img src="/images/leagues/ligue-1.png" alt="" width="56" height="56">Ligue 1</li><li><img src="/images/leagues/premier-league.png" alt="" width="56" height="56">Premier League</li><li><img src="/images/leagues/liga.png" alt="" width="56" height="56">Liga</li><li><img src="/images/leagues/serie-a.png" alt="" width="56" height="56">Serie A</li><li><img src="/images/leagues/bundesliga.png" alt="" width="56" height="56">Bundesliga</li><li><img src="/images/leagues/champions-league.png" alt="" width="56" height="56">Ligue des champions</li><li><img src="/images/leagues/nations-league.png" alt="" width="56" height="56">Ligue des nations</li><li><img src="/images/leagues/world-cup.png" alt="" width="56" height="56">Coupe du monde</li><li><img src="/images/leagues/euro.png" alt="" width="56" height="56">Euro</li></ul>
+          <ul class="marquee-track" aria-hidden="true"><li><img src="/images/leagues/ligue-1.png" alt="" width="56" height="56">Ligue 1</li><li><img src="/images/leagues/premier-league.png" alt="" width="56" height="56">Premier League</li><li><img src="/images/leagues/liga.png" alt="" width="56" height="56">Liga</li><li><img src="/images/leagues/serie-a.png" alt="" width="56" height="56">Serie A</li><li><img src="/images/leagues/bundesliga.png" alt="" width="56" height="56">Bundesliga</li><li><img src="/images/leagues/champions-league.png" alt="" width="56" height="56">Ligue des champions</li><li><img src="/images/leagues/nations-league.png" alt="" width="56" height="56">Ligue des nations</li><li><img src="/images/leagues/world-cup.png" alt="" width="56" height="56">Coupe du monde</li><li><img src="/images/leagues/euro.png" alt="" width="56" height="56">Euro</li></ul>
+        </div>
+      </section>
+
+      <section class="stats-band" aria-label="Lucarne en chiffres">
+        <div class="wrap stats" data-reveal>
+          <div class="stat" data-reveal-item><p class="stat-value accent glow-text" data-count="50000" data-from="0" data-final="50 000+">50 000+</p><p class="stat-label">matchs à noter, avec leurs buteurs</p></div>
+          <div class="stat" data-reveal-item><p class="stat-value" data-count="1994" data-from="1930" data-final="1994">1994</p><p class="stat-label">la plus ancienne Coupe du monde du catalogue</p></div>
+          <div class="stat" data-reveal-item><p class="stat-value" data-count="9" data-from="0" data-final="9">9</p><p class="stat-label">compétitions, de la Ligue 1 à l’Euro</p></div>
+          <div class="stat" data-reveal-item><p class="stat-value" data-count="4" data-from="0" data-final="4">4</p><p class="stat-label">langues : français, anglais, espagnol et italien</p></div>
+        </div>
+      </section>
+
+      <section class="meter-section" aria-labelledby="note-titre" data-meter-section>
+        <div class="wrap meter-layout">
+          <div class="meter-text" data-reveal>
+            <h2 id="note-titre" data-reveal-item>De nul à culte, à toi de juger</h2>
+            <p data-reveal-item>Fais glisser ton doigt : la note grimpe par demi-points, et la foule s’enflamme avec elle.</p>
+          </div>
+          <div class="meter" data-lang="fr">
+            <p class="meter-value"><span data-meter-value>10,0</span><span class="meter-max">/10</span></p>
+            <div class="meter-crowd" aria-hidden="true"><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span><span class="supporter lit"><svg viewBox="0 0 28 36" aria-hidden="true"><path class="arm" d="M6 21 L2 11"/><path class="arm" d="M22 21 L26 11"/><circle cx="14" cy="8" r="6"/><path d="M4 36v-9a10 10 0 0 1 20 0v9z"/></svg></span></div>
+            <div class="meter-gauge" aria-hidden="true">
+              <div class="meter-fill" data-meter-fill></div>
+              <span class="meter-thumb" data-meter-thumb></span>
+            </div>
+            <div class="meter-anchors" aria-hidden="true"><span data-anchor="0">Nul</span><span data-anchor="1">Moyen</span><span data-anchor="2" class="is-on">Culte</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="screens-section" aria-labelledby="ecrans">
+        <div class="wrap section-head" data-reveal>
+          <h2 id="ecrans" data-reveal-item>Ton foot, noté et rangé</h2>
+          <p data-reveal-item>La finale de 2022 comme le 0-0 de dimanche dernier : chaque match vu trouve sa place dans ton carnet.</p>
+        </div>
+        <div class="fan" data-fan>
+          <div class="fan-item fan-left"><div class="phone phone-mini">
+              <span class="phone-side phone-side-a" aria-hidden="true"></span>
+              <span class="phone-side phone-side-b" aria-hidden="true"></span>
+              <div class="phone-screen">
+                <img class="screen is-active" src="/images/screens/fr/02.jpg" alt="Le fil des critiques de tes amis" width="640" height="1296">
+                <span class="phone-glare" aria-hidden="true"></span>
+              </div>
+            </div></div>
+          <div class="fan-item fan-center"><div class="phone phone-mini">
+              <span class="phone-side phone-side-a" aria-hidden="true"></span>
+              <span class="phone-side phone-side-b" aria-hidden="true"></span>
+              <div class="phone-screen">
+                <img class="screen is-active" src="/images/screens/fr/01.jpg" alt="Écran de notation d’un match, avec la note, la critique et l’homme du match" width="640" height="1296">
+                <span class="phone-glare" aria-hidden="true"></span>
+              </div>
+            </div></div>
+          <div class="fan-item fan-right"><div class="phone phone-mini">
+              <span class="phone-side phone-side-a" aria-hidden="true"></span>
+              <span class="phone-side phone-side-b" aria-hidden="true"></span>
+              <div class="phone-screen">
+                <img class="screen is-active" src="/images/screens/fr/03.jpg" alt="Le carnet de matchs, rangé par note" width="640" height="1296">
+                <span class="phone-glare" aria-hidden="true"></span>
+              </div>
+            </div></div>
+        </div>
+      </section>
+
+      <section id="fonctionnalites" class="features" aria-labelledby="fonctions-titre">
+        <div class="wrap">
+          <h2 id="fonctions-titre" data-reveal-single>Tout pour noter ton foot, rien de plus</h2>
+        </div>
+        <div class="wrap story" data-story>
+          <ol class="story-steps">
+            <li class="story-step is-active">
+              <span class="story-index" aria-hidden="true">01</span>
+              <div class="story-copy"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.5 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>
+                <h3>Une note de 1 à 10</h3>
+                <p>Par demi-points, comme dans la presse sportive. Un curseur qui suit ton doigt, et une foule de supporters qui s’enflamme à mesure que ta note grimpe.</p>
+              </div>
+              <div class="story-shot" aria-hidden="true"><div class="peek-phone" style="--shift:0px"><img src="/images/screens/fr/01.jpg" alt="" width="640" height="1296" loading="lazy"></div></div>
+            </li>
+            <li class="story-step">
+              <span class="story-index" aria-hidden="true">02</span>
+              <div class="story-copy"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                <h3>Ton carnet de supporter</h3>
+                <p>Chaque match vu, rangé par mois, avec ta moyenne et la répartition de tes notes.</p>
+              </div>
+              <div class="story-shot" aria-hidden="true"><div class="peek-phone" style="--shift:0px"><img src="/images/screens/fr/03.jpg" alt="" width="640" height="1296" loading="lazy"></div></div>
+            </li>
+            <li class="story-step">
+              <span class="story-index" aria-hidden="true">03</span>
+              <div class="story-copy"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="7" r="4"/><path d="M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.1a4 4 0 0 1 0 7.8"/><path d="M21 21v-2a4 4 0 0 0-3-3.9"/></svg>
+                <h3>Les avis de tes amis</h3>
+                <p>Deux fils côte à côte : « Pour toi » pour découvrir, « Abonnements » pour tes proches. Aime, commente, réponds.</p>
+              </div>
+              <div class="story-shot" aria-hidden="true"><div class="peek-phone" style="--shift:0px"><img src="/images/screens/fr/02.jpg" alt="" width="640" height="1296" loading="lazy"></div></div>
+            </li>
+            <li class="story-step">
+              <span class="story-index" aria-hidden="true">04</span>
+              <div class="story-copy"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M12 4v16"/><circle cx="12" cy="12" r="3"/></svg>
+                <h3>Les compos sur le terrain</h3>
+                <p>Buteurs, passeurs et changements, et ton homme du match choisi directement sur la pelouse.</p>
+              </div>
+              <div class="story-shot" aria-hidden="true"><div class="peek-phone" style="--shift:0px"><img src="/images/screens/fr/05.jpg" alt="" width="640" height="1296" loading="lazy"></div></div>
+            </li>
+            <li class="story-step">
+              <span class="story-index" aria-hidden="true">05</span>
+              <div class="story-copy"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v13"/></svg>
+                <h3>Partage en story</h3>
+                <p>Ta critique en image : carte story, sticker sans fond, sur ta propre photo ou en carré pour un post.</p>
+              </div>
+              <div class="story-shot" aria-hidden="true"><div class="peek-phone" style="--shift:0px"><img src="/images/screens/fr/04.jpg" alt="" width="640" height="1296" loading="lazy"></div></div>
+            </li>
+            <li class="story-step">
+              <span class="story-index" aria-hidden="true">06</span>
+              <div class="story-copy"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+                <h3>Tes équipes, tes rappels</h3>
+                <p>Suis tes clubs et ta sélection. Un rappel au coup d’envoi, puis la question qui compte.</p>
+              </div>
+              <div class="story-shot" aria-hidden="true"><div class="story-shot-notifs"><div class="notif-row"><img class="notif-icon" src="/apple-touch-icon.png" alt="" width="40" height="40"><span class="notif-text"><span class="notif-title">Lucarne · 21:00</span><span class="notif-body">N'oublie pas de regarder PSG contre l’OM !</span></span></div>
+              <div class="notif-row"><img class="notif-icon" src="/apple-touch-icon.png" alt="" width="40" height="40"><span class="notif-text"><span class="notif-title">Lucarne · 23:30</span><span class="notif-body">Alors, il était comment ce match ?</span></span></div></div></div>
+            </li>
+          </ol>
+          <div class="story-stage">
+            <div class="story-glow" aria-hidden="true"></div>
+            <div class="story-phone" data-story-phone>
+              <div class="phone phone-story">
+              <span class="phone-side phone-side-a" aria-hidden="true"></span>
+              <span class="phone-side phone-side-b" aria-hidden="true"></span>
+              <div class="phone-screen">
+                <img class="screen is-active" src="/images/screens/fr/01.jpg" alt="Écran de notation d’un match, avec la note, la critique et l’homme du match" width="640" height="1296"><img class="screen" src="/images/screens/fr/03.jpg" alt="Le carnet de matchs, rangé par note" width="640" height="1296"><img class="screen" src="/images/screens/fr/02.jpg" alt="Le fil des critiques de tes amis" width="640" height="1296"><img class="screen" src="/images/screens/fr/05.jpg" alt="La composition d’un match sur le terrain, avec les buteurs et l’homme du match" width="640" height="1296"><img class="screen" src="/images/screens/fr/04.jpg" alt="Le studio de partage d’une critique, en story" width="640" height="1296"><img class="screen" src="/images/screens/fr/06.jpg" alt="La page d’une équipe, avec son palmarès" width="640" height="1296">
+                <span class="phone-glare" aria-hidden="true"></span>
+              </div>
+            </div>
+            </div>
+            <div class="story-notifs" aria-hidden="true">
+              <div class="notif-row"><img class="notif-icon" src="/apple-touch-icon.png" alt="" width="40" height="40"><span class="notif-text"><span class="notif-title">Lucarne · 21:00</span><span class="notif-body">N'oublie pas de regarder PSG contre l’OM !</span></span></div>
+              <div class="notif-row"><img class="notif-icon" src="/apple-touch-icon.png" alt="" width="40" height="40"><span class="notif-text"><span class="notif-title">Lucarne · 23:30</span><span class="notif-body">Alors, il était comment ce match ?</span></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrap faq-section" aria-labelledby="faq-titre">
+        <h2 id="faq-titre" data-reveal-single>Questions fréquentes</h2>
+        <div class="faq" data-reveal>
+          <details class="faq-item" data-reveal-item>
+            <summary><h3>C’est quoi Lucarne ?</h3><span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>Une app iPhone pour noter les matchs de foot que tu regardes. Tu donnes une note de 1 à 10, tu écris ta critique et tu lis celles de tes amis. Comme Letterboxd pour les films, mais pour le foot.</p>
+          </details>
+          <details class="faq-item" data-reveal-item>
+            <summary><h3>Lucarne est-elle gratuite ?</h3><span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>Oui, entièrement. Quelques bandeaux publicitaires discrets s’affichent dans les listes, jamais en plein écran.</p>
+          </details>
+          <details class="faq-item" data-reveal-item>
+            <summary><h3>Sur quel téléphone ?</h3><span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>Sur iPhone, bientôt sur l’App Store, en français, anglais, espagnol et italien. Il n’existe pas encore de version Android.</p>
+          </details>
+          <details class="faq-item" data-reveal-item>
+            <summary><h3>Quels matchs peut-on noter ?</h3><span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>Plus de 50 000 matchs : la Ligue 1, la Premier League, la Liga, la Serie A et la Bundesliga depuis 2001, la Ligue des champions depuis 2002, chaque Coupe du monde depuis 1994, chaque Euro depuis 2004 et la Ligue des nations depuis sa création.</p>
+          </details>
+          <details class="faq-item" data-reveal-item>
+            <summary><h3>Comment on note un match ?</h3><span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>Tu fais glisser ton doigt, de 1 à 10 par demi-points. Tu peux ajouter une critique, ton homme du match choisi sur la composition, et le jour où tu l’as vu.</p>
+          </details>
+          <details class="faq-item" data-reveal-item>
+            <summary><h3>Qui voit mes critiques ?</h3><span class="faq-icon" aria-hidden="true"></span></summary>
+            <p>C’est toi qui choisis, à chaque critique : tout le monde, seulement tes abonnés, ou toi seul.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="telecharger" class="wrap final-section" aria-labelledby="cta-final">
+        <div class="final" data-final>
+          <div class="final-glow" aria-hidden="true"></div>
+          <svg class="pitch" aria-hidden="true" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMid slice"><g><line x1="600" y1="0" x2="600" y2="420"/><circle cx="600" cy="210" r="120"/><rect x="-2" y="90" width="150" height="240"/><rect x="1052" y="90" width="150" height="240"/></g></svg>
+          <div class="final-content" data-reveal>
+            <h2 id="cta-final" data-reveal-item>Ton prochain match mérite une note</h2>
+            <p data-reveal-item>Gratuit, sur iPhone, en français, anglais, espagnol et italien.</p>
+            <div data-reveal-item><p class="cta magnetic"><span class="cta-shine" aria-hidden="true"></span><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.18-1.73-1.35-.14-2.64.8-3.33.8-.69 0-1.74-.78-2.87-.76-1.47.02-2.83.86-3.59 2.18-1.53 2.66-.39 6.6 1.1 8.75.73 1.05 1.6 2.24 2.73 2.2 1.1-.05 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.07 2.65-2.13.84-1.22 1.18-2.4 1.2-2.46-.03-.01-2.27-.87-2.29-3.46zM14.2 6.13c.6-.73 1.01-1.75.9-2.76-.87.04-1.92.58-2.54 1.31-.56.65-1.05 1.68-.92 2.68.97.07 1.96-.49 2.56-1.23z"/></svg>Bientôt sur l’App Store</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrap">
+        <nav aria-label="Liens légaux">
+          <ul>
+            <li><a href="/legal/privacy/">Politique de confidentialité</a></li>
+            <li><a href="/legal/terms/">Conditions d'utilisation</a></li>
+            <li><a href="mailto:lucarne.contact@gmail.com">Nous écrire</a></li>
+          </ul>
+        </nav>
+        <p>Lucarne n'est affiliée à aucun club, ligue ou fédération, et n'est ni sponsorisée ni approuvée par eux. Les noms, écussons et logos sont utilisés uniquement à des fins d'identification.</p>
+        <p>Données sportives : ESPN, <span class="nowrap">API-Football</span> et <span class="nowrap">Football-Data.org</span></p>
+        <p>© 2026 Lucarne</p>
+      </div>
+    </footer>
+    <script src="/vendor/gsap.min.js" defer></script>
+    <script src="/vendor/ScrollTrigger.min.js" defer></script>
+    <script src="/main.js" defer></script>
+  </body>
+</html>
