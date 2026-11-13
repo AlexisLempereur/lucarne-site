@@ -1,0 +1,69 @@
+# Lucarne
+
+> Une app iPhone pour noter les matchs de foot que tu regardes. Tu donnes une note de 1 à 10, tu écris ta critique et tu lis celles de tes amis. Comme Letterboxd pour les films, mais pour le foot.
+
+> An iPhone app to rate the football matches you watch. You give a rating from 1 to 10, write your review and read your friends’ reviews. Like Letterboxd for films, but for football.
+
+Note chaque match que tu regardes, écris ce que tu en as pensé et garde la trace de toute ta saison de foot. Contact: lucarne.contact@gmail.com
+
+## Lucarne, l’app pour noter les matchs de foot
+
+- [Accueil](https://lucarne.eu/)
+- [Politique de confidentialité](https://lucarne.eu/legal/privacy/)
+- [Conditions d'utilisation](https://lucarne.eu/legal/terms/)
+
+### C’est quoi Lucarne ?
+
+Une app iPhone pour noter les matchs de foot que tu regardes. Tu donnes une note de 1 à 10, tu écris ta critique et tu lis celles de tes amis. Comme Letterboxd pour les films, mais pour le foot.
+
+### Lucarne est-elle gratuite ?
+
+Oui, entièrement. Quelques bandeaux publicitaires discrets s’affichent dans les listes, jamais en plein écran.
+
+### Sur quel téléphone ?
+
+Sur iPhone, bientôt sur l’App Store, en français, anglais, espagnol et italien. Il n’existe pas encore de version Android.
+
+### Quels matchs peut-on noter ?
+
+Plus de 50 000 matchs : la Ligue 1, la Premier League, la Liga, la Serie A et la Bundesliga depuis 2001, la Ligue des champions depuis 2002, chaque Coupe du monde depuis 1994, chaque Euro depuis 2004 et la Ligue des nations depuis sa création.
+
+### Comment on note un match ?
+
+Tu fais glisser ton doigt, de 1 à 10 par demi-points. Tu peux ajouter une critique, ton homme du match choisi sur la composition, et le jour où tu l’as vu.
+
+### Qui voit mes critiques ?
+
+C’est toi qui choisis, à chaque critique : tout le monde, seulement tes abonnés, ou toi seul.
+
+## Lucarne, the app to rate the football matches you watch
+
+- [Home](https://lucarne.eu/en/)
+- [Privacy policy](https://lucarne.eu/en/legal/privacy/)
+- [Terms of use](https://lucarne.eu/en/legal/terms/)
+
+### What is Lucarne?
+
+An iPhone app to rate the football matches you watch. You give a rating from 1 to 10, write your review and read your friends’ reviews. Like Letterboxd for films, but for football.
+
+### Is Lucarne free?
+
+Yes, completely. A few discreet banner ads appear in lists, never full screen.
+
+### Which phones does it run on?
+
+iPhone, coming soon to the App Store, in English, French, Spanish and Italian. There is no Android version yet.
+
+### Which matches can I rate?
+
+Over 50,000 matches: Ligue 1, the Premier League, LaLiga, Serie A and the Bundesliga since 2001, the Champions League since 2002, every World Cup since 1994, every Euro since 2004 and the Nations League since its creation.
+
+### How do I rate a match?
+
+Slide your finger from 1 to 10, in half points. You can add a review, your man of the match picked from the lineup, and the day you watched it.
+
+### Who can see my reviews?
+
+You choose, for each review: everyone, only your followers, or just you.
+
+Other languages: https://lucarne.eu/es/ (español), https://lucarne.eu/it/ (italiano).
